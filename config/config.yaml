@@ -24,11 +24,11 @@ s3:
   base_url: "https://cdn.opencars.app"
 
 database:
-  host: "127.0.0.1"
+  host: "vms.sharp.id"
   port: 5432
   username: "postgres"
-  password: "password"
-  database: "alpr"
+  password: "vms123@"
+  database: "e_invoice_dev"
   ssl_mode: "disable"
 
 nats:

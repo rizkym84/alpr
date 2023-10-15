@@ -15,7 +15,7 @@ Mount current directory and use bash inside docker container for development
 ```sh
 docker run -it -v ${PWD}:/go/src/app -p 8080:8080 alpr-dev /bin/bash
 ```
-
+    
 ## Usage
 
 ```sh
